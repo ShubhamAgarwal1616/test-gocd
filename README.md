@@ -1,1 +1,1 @@
- test-gocd
+ wdknwtest-gocd
