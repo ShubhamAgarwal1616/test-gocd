@@ -1,0 +1,47 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMwekNDQWJ1Z0F3SUJBZ0lNRmRLNHI1MnlKNnU5d1dtNE1BMEdDU3FHU0liM0RRRUJDd1VBTUJVeEV6QVIKQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13SGhjTk1Ua3hNREk1TVRFME5EUTBXaGNOTWpreE1ESTRNVEUwTkRRMApXakFWTVJNd0VRWURWUVFERXdwcmRXSmxjbTVsZEdWek1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBCk1JSUJDZ0tDQVFFQXFZUzZTNlYvTFdwM1QranVhSmJBYmJwTHN6dktBUFVxd0VUVzRJOHY0aTVSeWo0RS9MODUKbUI4MXBWSzhIUmtKYmtzWDlUQnRweUI3ckdGeDN0aEVsT1NhRVJGZUJ1Q0V6RGJjQ1BZNUx5Q2pxV0pER1VGaApVV2wybXZlRlBBc1prK0xnb3kxQi9lQmNMUEphdU5sc0RHRDMveGtha2o5NWpNMll5YkcrMHpLNU5wRS8zWmxECkx1YzJJYVFhUlVyeWlld1N4WXVQUWJDandDN0Y4dlh2dnFld2ViRDRTVXZLSVNBRTNyMEg3dTFNb3RuMWc0MmYKKytlVTdFZGhvN2tMbTdiUmhGSUMwSGRKa3JIamhPVERKQXVucTFOc2ZMMW93azg1amRFWTFJVlhOb3BUSGVaWgo0M211VFlsTjZnclNpQ0FiNlpNbWZ0akR1TDhFaDdHK0xRSURBUUFCb3lNd0lUQU9CZ05WSFE4QkFmOEVCQU1DCkFRWXdEd1lEVlIwVEFRSC9CQVV3QXdFQi96QU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFVdGdmM21ibGdTQSsKRzZCS1VEOGNnaXN5ZDZha2UyWFhJYm1Nc1N4d3c3ZFNmT3VuTm1KeXgwVW1Nbjc4RE5tNXhvYVIzbnR2QWRESAprVzlGSlFBQllNRWRMRmRIZ2IzUUJ3UlhVTjJzZEtHeUdhVjhJeWNrMm45Zy9hWHU4OThaVkxHTjh5UzlIaEhiCm5uaVVMNTdiaFNpUWVUZnZaWk10Z2VWT05OMXBBMnRLSW1LaTQ2RDdSb3BPSm40dGpiN3VMSTNvRU1NUnNYZlEKanFaQ1dQNHpLaHV0Ukh3cXEyei9wV3psU1pGU0MrbzZWL01FSTVNWjBJRnJUOUMva1h2cWlFejhNa0RqcjdsUwp6QW1DRW9tNUtyN3Qxc1piTjJtV2cxb2pGQlVWOFRYVmoxMXFqdmgyNnM2bDRMYnR2Y0tQRVBJdUJ6c281cEd3CmJhaURpcEVkR2c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://api.nonprod.np.navi-tech.in
+  name: nonprod.np.navi-tech.in
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMwekNDQWJ1Z0F3SUJBZ0lNRmM0ZFlkSkE3eUorTDZrUk1BMEdDU3FHU0liM0RRRUJDd1VBTUJVeEV6QVIKQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13SGhjTk1Ua3hNREUwTVRFek16UTFXaGNOTWpreE1ERXpNVEV6TXpRMQpXakFWTVJNd0VRWURWUVFERXdwcmRXSmxjbTVsZEdWek1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBCk1JSUJDZ0tDQVFFQXNDTUl2QkNQVkorWXFYTjhMZzRvTW1ZV2NHNHhabjlrdkw3OXdhYUgvUEYyUjV6N21sSy8KV3NKT3k4dGhTVFdKeVJQRHhmbmdWcmcvVFhCMlNHQ3VXUVF6UkJaSVJiR3BWZEVaYlNIRmlwTlZRZm81UkZ4NgplRHFtanpyTkNkRi9QU2N5TCs0MVQ0SFJKYlVPbWpidDZ6MFMwaWZMeXZ0bWpkRVp1R3F6SUtkaGszci9hSzRLCldDWmt4ZW40TXB0Y05YZ3laMXFrOFVTdW52R21qQVBkWWZEZlEzNG9EMDd0Uk5oOFcvenZodjhOcDNMdkdEaFgKbncrK1FOVHJvNUR2QU1jWE14dXZvOVBSbU8rUXkwb0VZY2NsbGdrTHFNdDhvZGg5clR6aDIrKzJTcUVzMnpFUgp5V2JiTmNuRjBzc1h2SzVsTUU0QkxidFVkNnFHVG11NDN3SURBUUFCb3lNd0lUQU9CZ05WSFE4QkFmOEVCQU1DCkFRWXdEd1lEVlIwVEFRSC9CQVV3QXdFQi96QU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFhRzZiWFVKVkQyYVoKdWNIelh0MWN1VWJwTnR2STZ3T1VBVGg5V3IrMmRDaHZvRnEzczczMTRIOHZSVzVtK0owQStkbGJRUTY4SnRzbApvNGxFRUJYbm1JblozRm5kZ0VZUmt6T29wMUExRUxJM3VnK3VkUG1OTmZTS1N6bnlTWWZrS0NhZTRmYjVlaGZaCjVnWnlsUVhDY0ZuVGNFaHhQU2xvSjJ3YzI3TWtVdVZkMk9lK0NBd1pCZUpRclBwcUtOR0pFYXFickdUSUhON3EKbkRHNkpFYXpCb1RkbmJrRmcrQnJZa1dVWGxxR094YjRBSTQxN2ZIOS9vYTZ1VDBUdVRjd1YxQ1VnSEJCeFdIVApIelR1KzEvUjdlMkxidURRbE1xbWkrRG1lSkZOWEhoWHhOUHUvQkkxRk5SeUZVMzNJcjYzTVpSRk5yWXlKZE1zCjQvcHdWakZUSUE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://api.prod.cmd.navi-tech.in
+  name: prod.cmd.navi-tech.in
+contexts:
+- context:
+    cluster: nonprod.np.navi-tech.in
+    namespace: default
+    user: nonprod.np.navi-tech.in
+  name: nonprod.np.navi-tech.in
+- context:
+    cluster: prod.cmd.navi-tech.in
+    namespace: pipelines
+    user: prod.cmd.navi-tech.in
+  name: prod.cmd.navi-tech.in
+current-context: prod.cmd.navi-tech.in
+kind: Config
+preferences: {}
+users:
+- name: nonprod.np.navi-tech.in
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1alpha1
+      args:
+      - token
+      - -i
+      - nonprod.np.navi-tech.in
+      - -r
+      - arn:aws:iam::571315076762:role/KubernetesAdmin
+      command: aws-iam-authenticator
+- name: prod.cmd.navi-tech.in
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1alpha1
+      args:
+      - token
+      - -i
+      - prod.cmd.navi-tech.in
+      - -r
+      - arn:aws:iam::193044292705:role/KubernetesAdmin
+      command: aws-iam-authenticator

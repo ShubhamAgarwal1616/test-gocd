@@ -1,1 +1,1 @@
- test-gocd
+ shbwhdstest-gocd
