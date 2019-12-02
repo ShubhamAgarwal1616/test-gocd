@@ -1,1 +1,1 @@
- shbwhddsjtest-gocd
+test-gocd
