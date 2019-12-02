@@ -1,1 +1,1 @@
- test-gocd
+ sjtest-gocd
